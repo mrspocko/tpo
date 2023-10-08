@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    }
+    html { 
+        font-size: 1rem;
+        height: 100%;
+    }
+    body,header,main,footer,.pie-pagina {
+      
+        min-height: 50px;
+        margin: 0.5rem;
+        min-width: 400px;
+        text-align: center;
+    }
+    body {
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: left;
+        text-align: center;
+    }
+    main {
+       
+        min-height: 200px;
+        overflow: auto;
+        background-color: blanchedalmond;
+        text-align: center;
+    }
+    
+    header {
+        background-color: burlywood
+        box-shadow: 0 0 0.5rem rgb(83 78 76 / 50%);
+    }
+    footer {
+        background: beige;
+        margin: 0.5rem;
+    
+    }
+    main>div {
+        background-color:white;
+        min-height: 180px;
+        margin: 0.5rem;
+        height: auto;
+        float: left;
+        width: 65%;
+    
+        }
+        main>aside { 
+            
+         min-height: 180px;
+         min-width: 25%;
+         margin: 0.5rem;
+         float: left;
+         width: auto;
+         margin-top: 50px;
+         margin-block: 25%;
+    }
+               
+    .secciones {
+        
+        min-height: 50px;
+        margin: 0.5rem;
+        text-align: center;
+    }
+    .secciones article {
+       
+        margin: 0.5rem;
+        min-height: 20px;
+    }
+    
+    .header-logo {
+        width: auto;
+        display: inline-block;
+        margin: 0.5rem;
+    }
+    
+    .header-menubar {
+        left: auto;
+        position: relative;
+        top: auto;
+        width: auto;
+        display: inline-block;
+        margin: 0.5rem 0 0.5rem 1 rem;
+    
+    }
+    .header-menubar ul {
+        list-style: none;
+    }
+        
+    .header-menubar li {
+        float:left;
+        font-weight:700;
+        text-align: center;
+        padding: 0.5rem;  
+    }
+    #logoloto-ppal {
+        width: 20%; 
+     }
+    #meditación-ppal {
+        width: 100%;
+    
+    }
+    #mujer-ppal {
+        width: 100%;
+    }
+    #yoga-ppal {
+        width: 100%;
+        rounded-circle
+    }
+    #saludo-ppal {
+        width: 100%;
+    }
+    
+    #che .h1{
+        margin: 0.5rem;
+        transition: all 300ms ease;
+    }
+    
+    #alimentación-ppal {
+        width: 100%;
+    }
+    #montaña-ppal {
+        width: 100%;
+        rounded-circle 
+    
+    .pie-pagina { 
+        width: 100%;
+        background-color #0a141d;
+        margin 0.5rem;
+    }
+    .pie-pagina .grupo-1 {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0.5rem;
+        display:grid;
+        grid-template-columns: repeat(3,1fr); 
+        grid: gap 50px;
+        padding: 45px 0px;
+    
+    }
+    
+    .pie-pagina .grupo-1 .box figure{ 
+       width: 100%;
+       height: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    .pie-pagina .grupo-1 .box figure img {
+    
+       width: 250px; 
+    }
+    .pie-pagina .grupo-1 .box h2 {
+       color:#fff
+       margin-bottom 25px;
+       font-size: 20px;
+    }
+    
