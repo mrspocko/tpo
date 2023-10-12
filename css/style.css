@@ -152,6 +152,9 @@ a:visited{
         background-color #0a141d;
         margin 0.5rem;
     }
+        li{
+        list-style: none;
+    }
     .pie-pagina .grupo-1 {
         width: 100%;
         max-width: 1200px;
@@ -161,9 +164,6 @@ a:visited{
         grid: gap 50px;
         padding: 45px 0px;
     
-    }
-          li{
-        list-style: none;
     }
     
     .pie-pagina .grupo-1 .box figure{ 
