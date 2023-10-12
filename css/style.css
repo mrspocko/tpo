@@ -1,5 +1,5 @@
 a:hover{
-    background-color: white;
+    background-color: #e7dad1;
 
 }
 
@@ -20,7 +20,7 @@ nav > li{
 }
 
 a:visited{
-    color: #BFBBCb;
+    color: #f9e6e2;
 }
 
 * {
