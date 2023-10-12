@@ -137,6 +137,10 @@
         padding: 45px 0px;
     
     }
+
+         li{
+        list-style: none;
+    }
     
     .pie-pagina .grupo-1 .box figure{ 
        width: 100%;
@@ -154,4 +158,13 @@
        margin-bottom 25px;
        font-size: 20px;
     }
+
+        
+   h6{
+    color: white;
+   }
+
+   iframe{
+    width: 500px;
+   }
     
