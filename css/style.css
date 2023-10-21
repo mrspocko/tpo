@@ -9,6 +9,12 @@ li > a{
 
 }
 
+h1 > b{
+    font-family: cursive;
+    font-style: italic;
+    
+}
+
 nav > li{
     display: flex;
     justify-content: space-between;
@@ -107,6 +113,12 @@ a:visited{
         margin: 0.5rem 0 0.5rem 1 rem;
     
     }
+
+h1 {
+    font-family: cursive;
+    font-style: italic;
+    
+}
     .header-menubar ul {
         list-style: none;
     }
