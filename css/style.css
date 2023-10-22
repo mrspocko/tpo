@@ -212,6 +212,9 @@ a:visited{
    }
 
    iframe{
-    width: 500px;
+    width: auto;
+    height: auto;
+    padding: auto;
+    margin: auto;
    }
     
