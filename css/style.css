@@ -118,6 +118,22 @@ a:visited{
     
     }
 
+ #che > h1 {
+        animation: fluido 30s ease-in-out infinite;
+        background: linear-gradient(-45deg, #ee7752, #ed7f1f, black, #fa8072);
+        background-size: 300%;
+        -webkit-background-clip: text;
+                background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      
+      @keyframes fluido {
+          0% { background-position: 0 50% }
+          50% { background-position: 100% 50% }
+          100% { background-position: 0 50% }
+      }
+
+
 h1 {
     font-family: cursive;
     font-style: italic;
