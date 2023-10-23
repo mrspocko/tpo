@@ -1,201 +1,220 @@
-a:hover {
+a:hover{
     background-color: #e7dad1;
+
 }
 
-li > a {
+li > a{
     text-decoration: none;
     color: black;
+
 }
 
-div > li {
+
+div > li{
     list-style: none;
 }
 
-nav > li {
+nav > li{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200 px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20 px;
+    padding: 0 20px;
+
 }
 
-a:visited {
+a:visited{
     color: #8e3205;
 }
 
 * {
     box-sizing: border-box;
     }
-html { 
-    font-size: 1 rem;
-    height: 100 %;
+    html { 
+        font-size: 1rem;
+        height: 100%;
     }
-body,header,main,footer, .pie-pagina {
-        min-height: 50 px;
-        margin: 0.5 rem;
-        min-width: 400 px;
+    body,header,main,footer,.pie-pagina {
+      
+        min-height: 50px;
+        margin: 0.5rem;
+        min-width: 400px;
         text-align: center;
     }
-body {
+    body {
         background-color: white;
         font-family: Arial, Helvetica, sans-serif;
         justify-content: left;
         text-align: center;
     }
-main {
-        min-height: 200 px;
+    main {
+       
+        min-height: 200px;
         overflow: auto;
         background-color: blanchedalmond;
         text-align: center;
     }
     
-header {
+    header {
         background-color: burlywood
-        box-shadow 0 0 0.5 rem rgb (83 78 76 / 50 %);
+        box-shadow 0 0 0.5rem rgb(83 78 76 / 50%);
     }
-footer {
+    footer {
         background: beige;
-        margin: 0.5 rem;
+        margin: 0.5rem;
+    
     }
-main>div {
+    main>div {
         background-color:white;
-        min-height: 180 px;
-        margin: 0.5 rem;
+        min-height: 180px;
+        margin: 0.5rem;
         height: auto;
         float: left;
-        width: 65 %;
-    }
-main>aside { 
-         min-height: 180 px;
-         min-width: 25 %;
-         margin: 0.5 rem;
+        width: 65%;
+    
+        }
+        main>aside { 
+            
+         min-height: 180px;
+         min-width: 25%;
+         margin: 0.5rem;
          float: left;
          width: auto;
-         margin-top: 50 px;
-         margin-block: 25 %;
+         margin-top: 50px;
+         margin-block: 25%;
     }
-.secciones {
-        min-height: 50 px;
-        margin: 0.5 rem;
+               
+    .secciones {
+        
+        min-height: 50px;
+        margin: 0.5rem;
         text-align: center;
     }
-.secciones article {
-        margin: 0.5 rem;
-        min-height: 20 px;
+    .secciones article {
+       
+        margin: 0.5rem;
+        min-height: 20px;
     }
-.header-logo {
+    
+    .header-logo {
         width: auto;
         display: inline-block;
-        margin: 0.5 rem;
+        margin: 0.5rem;
     }
-.header-menubar {
+    
+    .header-menubar {
         left: auto;
         position: relative;
         top: auto;
         width: auto;
         display: inline-block;
-        margin: 0.5 rem 0 0.5 rem 1 rem;
+        margin: 0.5rem 0 0.5rem 1 rem;
+    
     }
 
  #che > h1 {
-        animation: fluido 30 s ease-in-out infinite;
-        background: linear-gradient (-45 deg, #ee7752, #ed7f1f, black, #fa8072);
-        background-size: 300 %;
+        animation: fluido 30s ease-in-out infinite;
+        background: linear-gradient(-45deg, #ee7752, #ed7f1f, black, #fa8072);
+        background-size: 300%;
         -webkit-background-clip: text;
-        background-clip: text;
+                background-clip: text;
         -webkit-text-fill-color: transparent;
       }
-
-keyframes fluido {
-        0 % { background-position: 0 50 % }
-        50 % { background-position: 100 % 50 % }
-        100 % { background-position: 0 50 % }
+      
+      @keyframes fluido {
+          0% { background-position: 0 50% }
+          50% { background-position: 100% 50% }
+          100% { background-position: 0 50% }
       }
 
-.header-menubar ul {
+
+    .header-menubar ul {
         list-style: none;
     }
         
-.header-menubar li {
+    .header-menubar li {
         float:left;
         font-weight:700;
         text-align: center;
-        padding: 0.5 rem;  
+        padding: 0.5rem;  
     }
-#logoloto-ppal {
-        width: 20 %; 
+    #logoloto-ppal {
+        width: 20%; 
      }
- #meditación-ppal {
-        width: 100 %;
+    #meditación-ppal {
+        width: 100%;
     
     }
-#mujer-ppal {
-        width: 100 %;
+    #mujer-ppal {
+        width: 100%;
     }
-#yoga-ppal {
-        width: 100 %
+    #yoga-ppal {
+        width: 100%
         rounded-circle
     }
-#saludo-ppal {
-        width: 100 %
+    #saludo-ppal {
+        width: 100%
     }
 
-#che .h1{
-        margin: 0.5 rem;
-        transition: all 300 ms ease;
+    #che .h1{
+        margin: 0.5rem;
+        transition: all 300ms ease;
     }
     
-#alimentación-ppal {
-        width: 100 %;
+    
+    #alimentación-ppal {
+        width: 100%;
     }
-#montaña-ppal {
-        width: 100 %;
+    #montaña-ppal {
+        width: 100%;
         rounded-circle 
     
-.pie-pagina { 
-        width: 100 %;
+    .pie-pagina { 
+        width: 100%;
         background-color: #0a141d;
-        margin: 0.5 rem;
+        margin: 0.5rem;
     }
-div > li{
+        div > li{
         list-style: none;
     }
-.pie-pagina .grupo-1 {
-        width: 100 %;
-        max-width: 1200 px;
-        margin: 0.5 rem;
+    .pie-pagina .grupo-1 {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0.5rem;
         display:grid;
-        grid-template-columns: repeat (3,1 fr); 
-        grid: gap 50 px;
-        padding: 45 px 0 px;
+        grid-template-columns: repeat(3,1fr); 
+        grid: gap 50px;
+        padding: 45px 0px;
     
     }
     
-.pie-pagina .grupo-1 .box figure { 
-       width: 100 %;
-       height: 100 %;
+    .pie-pagina .grupo-1 .box figure{ 
+       width: 100%;
+       height: 100%;
        display: flex;
        justify-content: center;
        align-items: center;
     }
-.pie-pagina .grupo-1 .box figure img {
+    .pie-pagina .grupo-1 .box figure img {
     
-       width: 250 px; 
+       width: 250px; 
     }
-.pie-pagina .grupo-1 .box h2 {
+    .pie-pagina .grupo-1 .box h2 {
        color:#fff
-       margin-bottom 25 px;
-       font-size: 20 px;
+       margin-bottom 25px;
+       font-size: 20px;
     }
 
- h6 {
-     color: white;
+
+        h6{
+    color: white;
    }
-        
-iframe {
-     width: auto;
-     height: auto;
-     padding: auto;
-     margin: auto;
+
+   iframe{
+    width: auto;
+    height: auto;
+    padding: auto;
+    margin: auto;
+   }
   }    
