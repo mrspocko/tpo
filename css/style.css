@@ -31,7 +31,7 @@ html {
     font-size: 1 rem;
     height: 100 %;
     }
-body,header,main,footer, pie-pagina {
+body,header,main,footer, .pie-pagina {
         min-height: 50 px;
         margin: 0.5 rem;
         min-width: 400 px;
