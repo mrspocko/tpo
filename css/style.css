@@ -205,7 +205,12 @@ a:visited{
        margin-bottom 25px;
        font-size: 20px;
     }
-
+        
+    form > fieldset{
+    margin: 1rem;
+    padding: 5rem;
+    
+   }
 
         h6{
     color: white;
