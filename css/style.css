@@ -1,221 +1,222 @@
-a:hover{
+a:hover {
     background-color: #e7dad1;
-
 }
 
-li > a{
-    text-decoration: none;
+li>a {
     color: black;
-
+    text-decoration: none;
 }
 
-
-div > li{
+div>li {
     list-style: none;
 }
 
-nav > li{
+nav>li {
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
     margin: 0 auto;
+    max-width: 1200px;
     padding: 0 20px;
-
 }
 
-a:visited{
+a:visited {
     color: #8e3205;
-;
 }
 
 * {
     box-sizing: border-box;
-    }
-    html { 
-        font-size: 1rem;
-        height: 100%;
-    }
-    body,header,main,footer,.pie-pagina {
-      
-        min-height: 50px;
-        margin: 0.5rem;
-        min-width: 400px;
-        text-align: center;
-    }
-    body {
-        background-color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        justify-content: left;
-        text-align: center;
-    }
-    main {
-       
-        min-height: 200px;
-        overflow: auto;
-        background-color: blanchedalmond;
-        text-align: center;
-    }
-    
-    header {
-        background-color: burlywood
-        box-shadow 0 0 0.5rem rgb(83 78 76 / 50%);
-    }
-    footer {
-        background: beige;
-        margin: 0.5rem;
-    
-    }
-    main>div {
-        background-color:white;
-        min-height: 180px;
-        margin: 0.5rem;
-        height: auto;
-        float: left;
-        width: 65%;
-    
-        }
-        main>aside { 
-            
-         min-height: 180px;
-         min-width: 25%;
-         margin: 0.5rem;
-         float: left;
-         width: auto;
-         margin-top: 50px;
-         margin-block: 25%;
-    }
-               
-    .secciones {
-        
-        min-height: 50px;
-        margin: 0.5rem;
-        text-align: center;
-    }
-    .secciones article {
-       
-        margin: 0.5rem;
-        min-height: 20px;
-    }
-    
-    .header-logo {
-        width: auto;
-        display: inline-block;
-        margin: 0.5rem;
-    }
-    
-    .header-menubar {
-        left: auto;
-        position: relative;
-        top: auto;
-        width: auto;
-        display: inline-block;
-        margin: 0.5rem 0 0.5rem 1 rem;
-    
+}
+
+html {
+    font-size: 1rem;
+    height: 100%;
+}
+
+body, header, main, footer,.pie-pagina {
+    margin: 0.5rem;
+    min-height: 50px;
+    min-width: 400px;
+    text-align: center;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: left;
+    text-align: center;
+}
+
+main {
+    background-color: blanchedalmond;
+    min-height: 200px;
+    overflow: auto;
+    text-align: center;
+}
+
+header {
+    background-color: burlywood box-shadow 0 0 0.5rem rgb(83 78 76 / 50%);
+}
+
+footer {
+    background: beige;
+    margin: 0.5rem;
+}
+
+main>div {
+    background-color: white;
+    float: left;
+    height: auto;
+    margin: 0.5rem;
+    min-height: 180px;
+    width: 65%;
+}
+
+main>aside {
+    float: left;
+    margin-block: 25%;
+    margin-top: 50px;
+    margin: 0.5rem;
+    min-height: 180px;
+    min-width: 25%;
+    width: auto;
+}
+
+.secciones {
+    margin: 0.5rem;
+    min-height: 50px;
+    text-align: center;
+}
+
+.secciones article {
+    margin: 0.5rem;
+    min-height: 20px;
+}
+
+.header-logo {
+    display: inline-block;
+    margin: 0.5rem;
+    width: auto;
+}
+
+.header-menubar {
+    display: inline-block;
+    left: auto;
+    margin: 0.5rem 0 0.5rem 1 rem;
+    position: relative;
+    top: auto;
+    width: auto;
+}
+
+#che>h1 {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: fluido 30s ease-in-out infinite;
+    background-size: 300%;
+    background: linear-gradient(-45deg, #ee7752, #ed7f1f, black, #fa8072);
+}
+
+@keyframes fluido {
+    0% {
+        background-position: 0 50%
     }
 
- #che > h1 {
-        animation: fluido 30s ease-in-out infinite;
-        background: linear-gradient(-45deg, #ee7752, #ed7f1f, black, #fa8072);
-        background-size: 300%;
-        -webkit-background-clip: text;
-                background-clip: text;
-        -webkit-text-fill-color: transparent;
-      }
-      
-      @keyframes fluido {
-          0% { background-position: 0 50% }
-          50% { background-position: 100% 50% }
-          100% { background-position: 0 50% }
-      }
-
-
-    .header-menubar ul {
-        list-style: none;
-    }
-        
-    .header-menubar li {
-        float:left;
-        font-weight:700;
-        text-align: center;
-        padding: 0.5rem;  
-    }
-    #logoloto-ppal {
-        width: 20%; 
-     }
-    #meditación-ppal {
-        width: 100%;
-    
-    }
-    #mujer-ppal {
-        width: 100%;
-    }
-    #yoga-ppal {
-        width: 100%;
-       
-    }
-    #saludo-ppal {
-        width: 100%
+    50% {
+        background-position: 100% 50%
     }
 
-    #che .h1{
-        margin: 0.5rem;
-        transition: all 300ms ease;
+    100% {
+        background-position: 0 50%
     }
-    
-    
-    #alimentación-ppal {
-        width: 100%;
-    }
-    #montaña-ppal {
-        width: 100%;
-        rounded-circle 
-    
-    .pie-pagina { 
-        width: 100%;
+}
+
+.header-menubar ul {
+    list-style: none;
+}
+
+.header-menubar li {
+    float: left;
+    font-weight: 700;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+#logoloto-ppal {
+    width: 20%;
+}
+
+#meditación-ppal {
+    width: 100%;
+}
+
+#mujer-ppal {
+    width: 100%;
+}
+
+#yoga-ppal {
+    width: 100%;
+}
+
+#saludo-ppal {
+    width: 100%
+}
+
+#che .h1 {
+    margin: 0.5rem;
+    transition: all 300ms ease;
+}
+
+#alimentación-ppal {
+    width: 100%;
+}
+
+#montaña-ppal {
+    width: 100%;
+    rounded-circle .pie-pagina {
         background-color: #0a141d;
         margin: 0.5rem;
+        width: 100%;
     }
-        div > li{
+    
+    div>li {
         list-style: none;
     }
+
     .pie-pagina .grupo-1 {
-        width: 100%;
-        max-width: 1200px;
-        margin: 0.5rem;
-        display:grid;
-        grid-template-columns: repeat(3,1fr); 
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         grid: gap 50px;
+        margin: 0.5rem;
+        max-width: 1200px;
         padding: 45px 0px;
-    
+        width: 100%;
     }
-    
-    .pie-pagina .grupo-1 .box figure{ 
-       width: 100%;
-       height: 100%;
-       display: flex;
-       justify-content: center;
-       align-items: center;
+
+    .pie-pagina .grupo-1 .box figure {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        width: 100%;
     }
     .pie-pagina .grupo-1 .box figure img {
-    
-       width: 250px; 
+
+        width: 250px;
     }
     .pie-pagina .grupo-1 .box h2 {
-       color:#fff
-       margin-bottom 25px;
-       font-size: 20px;
+        color: #fff font-size 20px;
+        margin-bottom: 25px;
     }
 
+    h6 {
+        color: white;
+    }
 
-        h6{
-    color: white;
-   }
-
-   iframe{
-    width: auto;
-    height: auto;
-    padding: auto;
-    margin: auto;
-   }
-  }    
+    iframe {
+        height: auto;
+        margin: auto;
+        padding: auto;
+        width: auto;
+    }
+}
