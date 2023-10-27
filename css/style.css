@@ -219,3 +219,13 @@ a:visited{
     margin: auto;
    }
   }    
+
+    @media only screen and (min-width: 768px) {
+    .contenido-ppal {background-color:white;}
+    }
+    @media only screen and (max-width: 992px) {
+    .contenido-ppal {background: orange;}
+    }
+    @media only screen and (min-width: 1200px) {
+        .contenido-ppal {background-color:white;}
+    }
