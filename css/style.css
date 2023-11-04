@@ -221,11 +221,14 @@ a:visited{
   }    
 
     @media only screen and (min-width: 768px) {
-    .contenido-ppal {background-color:white;}
+    .contenido-ppal {background-color:white;
+                    width: 800px; margin: 0 auto;}
     }
     @media only screen and (max-width: 992px) {
-    .contenido-ppal {background: orange;}
+    .contenido-ppal {background: white;
+                    width: 800px; margin: 0 auto;}
     }
     @media only screen and (min-width: 1200px) {
-        .contenido-ppal {background-color:white;}
+        .contenido-ppal {background-color:white;
+                        width: 800px; margin: 0 auto;}
     }
