@@ -48,6 +48,7 @@ a:visited{
         font-family: Arial, Helvetica, sans-serif;
         justify-content: left;
         text-align: center;
+        padding: 5rem;
     }
     main {
        
@@ -55,6 +56,9 @@ a:visited{
         overflow: auto;
         background-color: blanchedalmond;
         text-align: center;
+        padding: 5rem;
+        width: auto;
+        margin: auto;
     }
     
     header {
