@@ -220,15 +220,15 @@ a:visited{
    }
   }    
 
+#contenido-ppal {
+    width: 800px; margin: 0 auto;
+}
     @media only screen and (min-width: 768px) {
-    .contenido-ppal {background-color:white;
-                    width: 800px; margin: 0 auto;}
+    .contenido-ppal {background-color:white;}
     }
     @media only screen and (max-width: 992px) {
-    .contenido-ppal {background: white;
-                    width: 800px; margin: 0 auto;}
+    .contenido-ppal {background: white;}
     }
     @media only screen and (min-width: 1200px) {
-        .contenido-ppal {background-color:white;
-                        width: 800px; margin: 0 auto;}
+        .contenido-ppal {background-color:white;}
     }
