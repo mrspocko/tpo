@@ -120,7 +120,7 @@ a:visited{
 
  #che > h1 {
         animation: fluido 10s ease-in-out infinite;
-        background: linear-gradient(-45deg,#8e3205, #ba521b, black, #ee7752);
+        background: linear-gradient(-45deg,#8e3205, #ba521b, rgb(137, 135, 135), #ee7752);
         background-size: 300%;
         -webkit-background-clip: text;
                 background-clip: text;
