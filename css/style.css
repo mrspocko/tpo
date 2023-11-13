@@ -89,7 +89,15 @@ a:visited{
          margin-top: 50px;
          margin-block: 25%;
     }
-               
+
+     .warnings{
+        width: 200px;
+        text-align: center;
+        margin: auto;
+        color: red;
+        padding-top: 20px;
+    }
+
     .secciones {
         
         min-height: 50px;
