@@ -13,8 +13,39 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
+    <style>
+.contenedor{
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+
+}
+
+@media (max-width: 768px) { 
+    .contenedor {
+       width: auto;
+
+   }
+    }
+
+    @media (max-width: 480px) { 
+        .contenedor {
+           width: auto;
+       }
+        }
+
+        @media (max-width: 360px) { 
+        .contenedor {
+           width: auto;
+       }
+        }
+
+</style>
+
+
+
 <body>
-    
+    <div class="contenedor">
     <header>
         <div class="header-logo"><a href="index.html"><img id="logoloto-ppal" src="img/logoloto.png" alt="florecer"></a>
         </div>
@@ -199,7 +230,8 @@ Conexión con uno mismo, nos enseña a estar más presentes y felices aquí y ah
     <small><copy; 2023></copy> <b>Yoga en Casa</b> - Todos los derechos reservados.</small>
 
 </div>
-    </center>
+    </div>
+        
     </footer>
     
 <script src = "app.js" ></script> 
