@@ -147,9 +147,7 @@ a:visited{
     }
         
     .header-menubar li {
-        float:left;
-        font-weight:700;
-        text-align: center;
+        
         padding: 0.5rem;  
     }
     #logoloto-ppal {
@@ -181,7 +179,8 @@ a:visited{
     }
     #montaña-ppal {
         width: 100%;
-        rounded-circle 
+        rounded-circle
+         }
     
     .pie-pagina { 
         width: 100%;
@@ -195,9 +194,7 @@ a:visited{
         width: 100%;
         max-width: 1200px;
         margin: 0.5rem;
-        display:grid;
-        grid-template-columns: repeat(3,1fr); 
-        grid: gap 50px;
+        
         padding: 45px 0px;
     
     }
