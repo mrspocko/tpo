@@ -147,9 +147,12 @@ a:visited{
     }
         
     .header-menubar li {
-        
+         float:left;
+        font-weight:700;
+        text-align: center;  
         padding: 0.5rem;  
     }
+
     #logoloto-ppal {
         width: 20%; 
      }
@@ -193,6 +196,9 @@ a:visited{
     .pie-pagina .grupo-1 {
         width: 100%;
         max-width: 1200px;
+        display:grid;
+        grid-template-columns: repeat(3,1fr); 
+        grid: gap 50px;
         margin: 0.5rem;
         
         padding: 45px 0px;
